@@ -12,6 +12,21 @@ public class Linecom {
       double length;
       length=Math.sqrt((x2-x1)*(x2-x1) + (y2-y1)*(y2-y1));
       System.out.println("Length of the line:" + length);
+      double length2;
+      System.out.println("Enter third co-ordinates:");
+      int m1=sc.nextInt();
+      int m2=sc.nextInt();
+      System.out.println("Enter fourth co-ordinates:");
+      int n1=sc.nextInt();
+      int n2=sc.nextInt();
+      length2=Math.sqrt((m2-m1)*(m2-m1) + (n2-n1)*(n2-n1));
+      System.out.println("Length of the line:" + length2);
+      String str1=length+"";
+      String str2=length2+"";
+      if(str1.equals(str2)==true)
+         System.out.println("The two lines are equal");
+      else
+         System.out.println("The two lines are not equal");
 
 	}
 }
