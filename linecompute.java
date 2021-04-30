@@ -12,19 +12,20 @@ class Linecom {
       int n1=sc.nextInt();
       int n2=sc.nextInt();
    static{
+      System.out.println("Welcome to Line Comparison Computation Program");
       System.out.println("Enter your 8 coordinates for computation");
    }
 
    Linecom(){
-      System.out.println("Welcome to Line Comparison Computation Program");
+      System.out.println("Processing..............");
    }
    void length1computation(){
       length=Math.sqrt((x2-x1)*(x2-x1) + (y2-y1)*(y2-y1));
-      System.out.println("Length of the line:" + length);
+      System.out.println("Length of the line1:" + length);
    }
    void length2computation(){
       length2=Math.sqrt((m2-m1)*(m2-m1) + (n2-n1)*(n2-n1));
-      System.out.println("Length of the line:" + length2);
+      System.out.println("Length of the line2:" + length2);
    }
    void comparision(){
       String str1=length+"";
